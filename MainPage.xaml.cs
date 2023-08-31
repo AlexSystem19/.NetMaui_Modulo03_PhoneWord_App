@@ -19,7 +19,7 @@ public partial class MainPage : ContentPage
 			CounterBtn.Text = $"Clicked {count} times";
 
 		SemanticScreenReader.Announce(CounterBtn.Text);
-	}*/
+	}
 
     string translatedNumber;
 
@@ -64,6 +64,6 @@ public partial class MainPage : ContentPage
                 await DisplayAlert("Unable to dial", "Phone dialing failed.", "OK");
             }
         }
-    }
+    }*/
 }
 

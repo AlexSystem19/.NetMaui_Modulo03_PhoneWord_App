@@ -4,7 +4,7 @@
          x:Class="Phoneword.MainPage">
 
     <VerticalStackLayout Spacing="15" Padding="20">
-        <Label Text = "Enter a Phoneword"
+        <!--<Label Text = "Enter a Phoneword"
                FontSize ="20"/>
         <Entry x:Name = "PhoneNumberText"
                Text = "1-555-NETMAUI" />
@@ -14,6 +14,13 @@
         <Button x:Name = "CallButton"
                 Text = "Call"
                 IsEnabled = "False"
-                Clicked = "OnCall"/>
+                Clicked = "OnCall"/>-->
+        <StackLayout>
+            <Label Text="Start" HorizontalOptions="Start" BackgroundColor="Silver" FontSize="40" />
+            <Label Text="Center" HorizontalOptions="Center" BackgroundColor="Silver"  FontSize="40" />
+            <Label Text="End" HorizontalOptions="End" BackgroundColor="Silver"  FontSize="40"/>
+            <Label Text="Fill" HorizontalOptions="Fill" BackgroundColor="Silver"  FontSize="40"/>
+        </StackLayout>
+
     </VerticalStackLayout>
 </ContentPage>
